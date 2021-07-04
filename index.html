@@ -97,36 +97,32 @@
               </div>
             </div>
 
-            <div class="form-group-container">
-              <div class="form-group dropdown">
-                <label class="form-label">Country</label>
+            <div class="form-group dropdown">
+              <label class="form-label">Country</label>
 
-                <div class="form-input dropdown-select">
-                  <i class="fas fa-globe-asia"></i>
-                  <input type="text" placeholder="Your country.." required />
-                  <i class="fas fa-chevron-down"></i>
-                </div>
-
-                <ul class="dropdown-list">
-                  <li class="dropdown-item" data-country="Viet Nam">
-                    Viet Nam
-                  </li>
-                  <li class="dropdown-item" data-country="Belgium">Belgium</li>
-                  <li class="dropdown-item" data-country="England">England</li>
-                </ul>
+              <div class="form-input dropdown-select">
+                <i class="fas fa-globe-asia"></i>
+                <input type="text" placeholder="Your country.." required />
+                <i class="fas fa-chevron-down"></i>
               </div>
 
-              <div class="form-group">
-                <label for="postalCode" class="form-label">Postal code</label>
-                <div class="form-input">
-                  <i class="fab fa-codepen"></i>
-                  <input
-                    id="postalCode"
-                    type="text"
-                    placeholder="Your postal code.."
-                    required
-                  />
-                </div>
+              <ul class="dropdown-list">
+                <li class="dropdown-item" data-country="Viet Nam">Viet Nam</li>
+                <li class="dropdown-item" data-country="Belgium">Belgium</li>
+                <li class="dropdown-item" data-country="England">England</li>
+              </ul>
+            </div>
+
+            <div class="form-group">
+              <label for="postalCode" class="form-label">Postal code</label>
+              <div class="form-input">
+                <i class="fab fa-codepen"></i>
+                <input
+                  id="postalCode"
+                  type="text"
+                  placeholder="Your postal code.."
+                  required
+                />
               </div>
             </div>
 
@@ -144,7 +140,43 @@
           <button type="submit" class="form-submit">Continue</button>
         </form>
 
-        <div class="checkout-cart">CART</div>
+        <div class="checkout-cart">
+          <div class="cart-item">
+            <img src="img/photo1.png" alt="" class="cart-item-image" />
+            <div class="cart-item-content">
+              <h3 class="cart-item-name">Vintage Backbag</h3>
+              <p class="cart-item-price">$54.99 <del>$94.99</del></p>
+              <div class="cart-item-count">
+                <i class="fas fa-minus"></i>
+                <span>1</span>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="img/photo2.png" alt="" class="cart-item-image" />
+            <div class="cart-item-content">
+              <h3 class="cart-item-name">Levi Shoes</h3>
+              <p class="cart-item-price">$74.99 <del>$124.99</del></p>
+              <div class="cart-item-count">
+                <i class="fas fa-minus"></i>
+                <span>1</span>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="cart-shipping">
+            <span>Shipping</span>
+            <span>$19</span>
+          </p>
+
+          <p class="cart-total">
+            <span>Total</span>
+            <span>$148.98</span>
+          </p>
+        </div>
       </div>
     </div>
 
